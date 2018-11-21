@@ -16,6 +16,8 @@ Create a new script called `mapreduce.py` and type into it
 ```python
 from scoop import futures
 
+from functools import reduce
+
 def product(x, y):
     """Return the product of the arguments"""
     return x*y
